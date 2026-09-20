@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohamed Bar — Web Developer portfolio featuring responsive front-end projects and JavaScript applications.">
+  <meta name="theme-color" content="#080b12">
+  <meta name="color-scheme" content="dark">
+  <title>Mohamed Bar | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="orb orb-one" aria-hidden="true"></div>
+  <div class="orb orb-two" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Mohamed Bar home">
+        <span class="brand-mark">MB</span>
+        <span class="brand-dot">.</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="https://github.com/Mohamedbar11062006" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="about">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Available for web projects</div>
+          <p class="hero-kicker">WEB DEVELOPER</p>
+          <h1>Building clean digital experiences that <span>work everywhere.</span></h1>
+          <p class="hero-lead">I'm Mohamed Bar, a Web Developer studying at <strong>FCI Tanta University</strong>. I build responsive interfaces, interactive JavaScript experiences, and practical web projects with a strong focus on clarity and usability.</p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="https://wa.me/2011129270804" target="_blank" rel="noopener noreferrer">Let's talk <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="hero-meta" aria-label="Quick profile details">
+            <div><span>Focus</span><strong>Front-end & JavaScript</strong></div>
+            <div><span>Based in</span><strong>Egypt</strong></div>
+            <div><span>Education</span><strong>FCI Tanta University</strong></div>
+          </div>
+        </div>
+
+        <div class="portrait-wrap reveal" aria-label="Profile photo of Mohamed Bar">
+          <div class="portrait-card">
+            <img src="assets/profile.webp" alt="Mohamed Bar" width="900" height="900" loading="eager">
+            <div class="portrait-shine" aria-hidden="true"></div>
+            <div class="portrait-tag"><span></span> HTML · CSS · JavaScript</div>
+          </div>
+          <div class="portrait-caption"><span>01</span><p>Developer portfolio<br><strong>2026 edition</strong></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">Capabilities</p>
+            <h2 id="skills-title">From idea to responsive interface.</h2>
+          </div>
+          <p class="section-intro">A focused toolkit for building lightweight, maintainable websites that feel good on desktop and mobile.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-index">01</span>
+            <h3>Front-end Development</h3>
+            <p>Semantic HTML, modern CSS and clean component-like structure for reliable interfaces.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="skill-index">02</span>
+            <h3>Responsive Design</h3>
+            <p>Layouts built to adapt smoothly across phones, tablets and desktop screens.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="skill-index">03</span>
+            <h3>JavaScript</h3>
+            <p>Interactive browser experiences, API-driven content and practical programming projects.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">Selected work</p>
+            <h2 id="projects-title">Projects built while learning by doing.</h2>
+          </div>
+          <p class="section-intro">Every “To Project” button opens the actual project as a rendered website, not the GitHub repository. The project preview does not depend on GitHub Pages being enabled, so the previous Pages 404 is avoided.</p>
+        </div>
+
+        <div class="projects-toolbar reveal">
+          <p id="project-status" role="status" aria-live="polite"><span class="status-pulse"></span> Loading live projects…</p>
+          <a href="https://github.com/Mohamedbar11062006?tab=repositories" target="_blank" rel="noopener noreferrer">View all repositories <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="projects-grid" id="projects-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-panel reveal">
+        <div class="contact-copy">
+          <p class="section-label">Contact</p>
+          <h2 id="contact-title">Have a web idea?<br><span>Let's build it well.</span></h2>
+          <p>Reach me directly by phone, WhatsApp, or email. You can also explore my code on GitHub or connect through Facebook.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-link contact-link-primary" href="https://wa.me/2011129270804" target="_blank" rel="noopener noreferrer">
+            <span><small>WhatsApp</small>+20 111 292 70804</span><b aria-hidden="true">↗</b>
+          </a>
+          <a class="contact-link" href="tel:+2011129270804">
+            <span><small>Call me</small>+20 111 292 70804</span><b aria-hidden="true">↗</b>
+          </a>
+          <a class="contact-link" href="mailto:mohamedbar1106@gmail.com">
+            <span><small>Email</small>mohamedbar1106@gmail.com</span><b aria-hidden="true">↗</b>
+          </a>
+          <a class="contact-link" href="https://github.com/Mohamedbar11062006" target="_blank" rel="noopener noreferrer">
+            <span><small>See the code</small>GitHub</span><b aria-hidden="true">↗</b>
+          </a>
+          <a class="contact-link" href="https://www.facebook.com/mohamed.bar.3363" target="_blank" rel="noopener noreferrer">
+            <span><small>Connect</small>Facebook</span><b aria-hidden="true">↗</b>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#top" aria-label="Back to top"><span class="brand-mark">MB</span><span class="brand-dot">.</span></a>
+      <p>Designed & built by Mohamed Bar <span aria-hidden="true">·</span> <span id="year">2026</span></p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
