@@ -5,7 +5,7 @@ const projects = [
     title: "Uncle Samir Menu",
     description: "A responsive restaurant menu project with a clean interface and JavaScript interactions.",
     tech: ["HTML", "CSS", "JavaScript"],
-    url: "https://html-preview.github.io/?url=https://github.com/Mohamedbar11062006/Menu/blob/main/index.html"
+    url: "https://mohamedbar11062006.github.io/Uncle-Samir-Menu-Professional/"
   },
   {
     title: "Menu Project V2",
